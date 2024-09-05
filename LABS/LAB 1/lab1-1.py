@@ -13,7 +13,7 @@ w = 10**(-np.linspace(1,10,10)) #w defines the values of 10^-x where x are the v
 x2 = np.linspace(1,10,10)
 s = 3*w 
 plt.plot(x2,w) #plots the values of w over the domain (x2)
-plt.plot(x2,s)
+plt.plot(x2,s) #plots the values of 3*w over the domain (x2)
 
 plt.xlabel('x')
 plt.ylabel('w')
