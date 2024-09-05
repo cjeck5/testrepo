@@ -15,6 +15,6 @@ s = 3*w
 plt.plot(x2,w) #plots the values of w over the domain (x2)
 plt.plot(x2,s) #plots the values of 3*w over the domain (x2)
 
-plt.xlabel('x')
+plt.xlabel('x') #adds labels to the figure we have created
 plt.ylabel('w')
 plt.show()
