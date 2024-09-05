@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 #EXCERCISE 3.2
 
-x = np.linspace(0,5,6)
+x = np.linspace(0,5,6) #lines 5 and 6 are used to practice initialzing domains using linspace and arange.
 y = np.arange(0,5,6)
 print('the first three entires of x are',x[0:3])
 
